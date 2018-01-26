@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 # read_temperature. Reads latest temperature from beebotte cloud and writes to lcd.
 #  
 

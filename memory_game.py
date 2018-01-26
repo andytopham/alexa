@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 # Memory game code for flask-ask demo as found in...
 #   https://alexatutorial.com/1
 

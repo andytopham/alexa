@@ -1,7 +1,5 @@
 # yaml
 # yaml file for flask-ask demo
 
-welcome: This is memory game version two. I'm going to say three numbers for you to repeat backwards. Ready?
-round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
-win: That is correct.
-lose: Sorry, that's the wrong answer.
+welcome: This is andy's temperatures.
+done: Goodbye.

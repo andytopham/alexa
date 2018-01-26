@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 # mybeebotte.py
 # To get beebotte working....
 #$ sudo apt-get install python-setuptools
