@@ -1,5 +1,6 @@
 # yaml
-# yaml file for flask-ask demo
+# yaml file for flask-ask. See flask-ask docs for more info....
+# http://flask-ask.readthedocs.io/en/latest/getting_started.html#a-minimal-voice-user-interface
 
-welcome: This is andy's temperatures.
+welcome: Temperature for which room?
 done: Goodbye.

@@ -31,7 +31,7 @@ class Temperatures():
 		print 'min=',val[1],' max=',val[2]
 		
 	def lcd(self, val):
-		self.mylcd.lcd_display_string("Conservatory temp.  ", 1)
+#		self.mylcd.lcd_display_string("Conservatory temp.  ", 1)
 		self.mylcd.lcd_display_string('now='+val[0]+' C   ', 2)
 		self.mylcd.lcd_display_string('min='+val[1]+' max='+val[2]+'  ' , 3)
 		self.mylcd.lcd_display_string('Stopped: fetch_data ' , 4) # any excess chars wrap to first line!

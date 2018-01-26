@@ -21,14 +21,19 @@ myData = fetch_data.Temperatures()
 
 @ask.launch
 def startup():
-	print 'Startup'
-	welcome_msg = render_template('welcome')
+	print '*Startup*'
 	mylcd.lcd_display_string("Alexa Temps.", 1)
+	msg = render_template('welcome')
+	return question(msg)
+
+@ask.intent("Conservatory")
+def return_temp():
+	print '*returning temp*'
 	vals = myData.read()
 	myData.list(vals)
 	myData.lcd(vals)
-	msg = render_template('done')
-	return statement(msg)
+#	msg = render_template('done')
+	return statement('The temperature in the conservatory is currently {} degrees centigrade'.format(vals[0]))
 
 if __name__ == '__main__':
     app.run(debug=True)

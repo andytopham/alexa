@@ -1,5 +1,11 @@
 # alexa code
-Code for both running alexa on the rpi and for being a slave to an alexa skill.
+Code for being a slave to an alexa skill.
+
+## Alexa skill
+###To get it to run in the simulator on the developer website, need to use US English.
+ - Skill = show temperatures
+###To get it to run on an Echo, need to use UK English.
+ - Skill = my temperatures
 
 ## For RPi being a slave
 flask-ask
